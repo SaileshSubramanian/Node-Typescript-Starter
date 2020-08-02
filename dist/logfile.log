@@ -1,0 +1,10 @@
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T10:40:26.754Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T14:07:56.651Z'
+}

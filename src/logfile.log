@@ -1,0 +1,31 @@
+{
+  level: 'error',
+  message: 'yayy yayy',
+  stack: 'Error: yayy\n' +
+    '    at Object.<anonymous> (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\src\\app.ts:19:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1158:30)\n' +
+    '    at Module.m._compile (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\node_modules\\ts-node\\src\\index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1002:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:901:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1044:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:77:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\src\\main.ts:1:1)',
+  timestamp: '2020-08-02T10:15:14.072Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T10:15:45.741Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T10:15:58.660Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T10:40:11.348Z'
+}
