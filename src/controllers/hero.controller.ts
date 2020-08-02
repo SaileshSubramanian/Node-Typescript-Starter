@@ -2,7 +2,7 @@ import { Request, Response, NextFunction } from "express";
 import heroService from "../services";
 
 
-export const getHeroesList = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+export const getHeroesList = async (req: Request, res: Response): Promise<void> => {
 	try {
 		const heroes = await heroService.getHeroes();
 		res.status(200).json(heroes);
@@ -11,7 +11,7 @@ export const getHeroesList = async (req: Request, res: Response, next: NextFunct
 	}
 };
 
-export const addHero = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+export const addHero = async (req: Request, res: Response): Promise<void> => {
 	const hero = {
 		id: 0,
 		name: req.body.name,
@@ -25,7 +25,7 @@ export const addHero = async (req: Request, res: Response, next: NextFunction): 
 
 };
 
-export const updateHero = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+export const updateHero = async (req: Request, res: Response): Promise<void> => {
 	const hero = {
 		id: parseInt(req.params.id),
 		name: req.body.name,
@@ -39,7 +39,7 @@ export const updateHero = async (req: Request, res: Response, next: NextFunction
 
 };
 
-export const deleteHero = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+export const deleteHero = async (req: Request, res: Response): Promise<void> => {
 	const { id } = req.params;
 
 
@@ -50,7 +50,3 @@ export const deleteHero = async (req: Request, res: Response, next: NextFunction
 
 };
 
-
-
-
-// export default { getHeroesList, addHero, updateHero, deleteHero };

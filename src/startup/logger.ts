@@ -1,4 +1,4 @@
-import winston, { createLogger, format, transports, Logger } from "winston";
+import winston, { format, transports } from "winston";
 import path from "path";
 
 const { combine, timestamp, prettyPrint } = format;

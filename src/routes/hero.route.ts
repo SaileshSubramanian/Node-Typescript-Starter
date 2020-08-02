@@ -1,4 +1,4 @@
-import express, { Application } from "express";
+import express from "express";
 import heroController from "../controllers";
 
 
@@ -13,10 +13,5 @@ router.put("/heroes/:id", heroController.updateHero);
 router.delete("/heroes/:id", heroController.deleteHero);
 
 
-
-
 export const heroRoutes = router;
 
-
-
-// export const heroRoutes = router;

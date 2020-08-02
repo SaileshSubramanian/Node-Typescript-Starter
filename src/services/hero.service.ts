@@ -2,8 +2,6 @@ import { data } from "./data";
 import { Ihero } from "../interfaces/hero.interface";
 
 
-// export class HeroService {
-
 
 export const addHero = async (hero: Ihero): Promise<Ihero> => {
 	hero.id = data.heroes.length + 1;
@@ -26,7 +24,3 @@ export const getHeroes = async (): Promise<Ihero[]> => {
 
 };
 
-// }
-
-
-// export default { getHeroes, addHero, updateHero, deleteHero };
