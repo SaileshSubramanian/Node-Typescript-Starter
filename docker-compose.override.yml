@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  node-app:
+    image: node-test
+    build:
+      dockerfile: Dockerfile.dev
+      context: .
+    volumes:
+      - /app/node_modules
+      - ./ :/app
+    ports:
+      - "80:5000"
+    environment:
+      NODE_ENV: "development"
+      PORT: 5000
