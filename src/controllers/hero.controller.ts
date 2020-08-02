@@ -3,12 +3,9 @@ import heroService from "../services";
 
 
 export const getHeroesList = async (req: Request, res: Response): Promise<void> => {
-	try {
-		const heroes = await heroService.getHeroes();
-		res.status(200).json(heroes);
-	} catch (error) {
-		res.status(500).send(error);
-	}
+	const heroes = await heroService.getHeroes();
+	res.status(200).json(heroes);
+
 };
 
 export const addHero = async (req: Request, res: Response): Promise<void> => {
