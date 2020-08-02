@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /node_modules/*
 # build artefacts
 dist/*
@@ -5,4 +6,13 @@ coverage/*
 # data definition files
 **/*.d.ts
 # custom definition files
+=======
+/node_modules/*
+# build artefacts
+dist/*
+coverage/*
+# data definition files
+**/*.d.ts
+# custom definition files
+>>>>>>> 85af90f3b5bfa03aa36281eb4496d402e26add03
 /src/types/

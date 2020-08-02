@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 version: "3"
 
 services:
   node-app:
     image: node-test
     restart: always
+=======
+version: "3"
+
+services:
+  node-app:
+    image: node-test
+    restart: always
+>>>>>>> 85af90f3b5bfa03aa36281eb4496d402e26add03

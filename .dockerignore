@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 node_modules
 npm-debug.log
 Dockerfile
+=======
+node_modules
+npm-debug.log
+Dockerfile
+>>>>>>> 85af90f3b5bfa03aa36281eb4496d402e26add03
 .dockerignore
